@@ -1,0 +1,78 @@
+@media (max-width: 1199px) {
+    .progress {
+        height: 3px;
+        width: 400px;
+    }
+
+    .skills__fblock {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 991px) {
+    .header {
+        padding-bottom: 40px;
+    }
+
+    .progress {
+        height: 3px;
+        width: 300px;
+    }
+
+    .card__item {
+        width: 50%;
+    }
+    .project__img {
+        max-width: 1110px;
+        width: 100%;
+    }
+
+    .project__arrow {
+        max-width: 85px;
+        width: 100%;
+    }
+}
+
+@media(max-width: 767px) {
+    .progress {
+        height: 3px;
+        width: 200px;
+    }
+    .skills__graphics {
+        width: 100%;
+        flex-wrap: nowrap;
+    }
+
+    .skills__fblock {
+        max-width: 250px;
+        width: 100%;
+    }
+
+    .footer__block {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .footer__list {
+        margin-top: 20px;
+    }
+
+    .footer__email {
+        margin-right: 15px;
+    }
+
+    .footer__tel {
+        margin-left: 15px;
+    }
+}
+
+@media(max-width: 575px) {
+    .header__btn {
+        display: block;
+        width: max-content;
+        margin: auto;
+    }
+
+}
