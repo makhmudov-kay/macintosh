@@ -172,7 +172,8 @@ a:hover {
 
 .progress {
     height: 3px;
-    width: 500px;
+    max-width: 500px;
+    width: 100%;
 }
 
 .skills__design_margin, .skills__web_margin, .skills__marketing_margin {

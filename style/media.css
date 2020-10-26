@@ -7,6 +7,11 @@
     .skills__fblock {
         margin-left: 50px;
     }
+
+    .project__img {
+        max-width: 1110px;
+        width: 100%;
+    }
 }
 
 @media (max-width: 991px) {
@@ -38,13 +43,35 @@
         height: 3px;
         width: 200px;
     }
-    .skills__graphics {
+    .skills__graphics, .skills__img {
         width: 100%;
         flex-wrap: nowrap;
     }
 
+    .skills__img {
+        min-height: 50vh;
+    }
+
     .skills__fblock {
-        max-width: 250px;
+        max-width: 80%;
+        width: 100%;
+        padding: 50px 0;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .progress {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .partners__img {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .project__arrow {
+        max-width: 55px;
         width: 100%;
     }
 
@@ -75,4 +102,50 @@
         margin: auto;
     }
 
+    .info {
+        padding: 40px 0 50px 0;
+    }
+
+    .partners {
+        padding-top: 30px;
+        padding-bottom: 35px;
+    }
+
+    .card__item {
+        height: 200px;
+    }
+
+    .card__img {
+        height: 200px;
+    }
+
+    .card__load {
+        padding: 20px 0;
+    }
+    .partners__img {
+        margin-right: 40px;
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+
+    .slider {
+        padding: 80px 0 40px 0;
+    }
+
+    .project {
+        padding: 40px 0 50px 0;
+    }
+
+    .project__arrow {
+        max-width: 35px;
+        width: 100%;
+    }
+
+    .footer__contacts {
+        font-size: 10px;
+    }
+
+    .footer__email {
+        margin-right: 0;
+    }
 }
